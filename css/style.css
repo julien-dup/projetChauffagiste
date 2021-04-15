@@ -1,0 +1,19 @@
+@media(min-width: 12px) and (max-width: 425px)
+{
+    footer .call {
+        display: flex;
+        width: 230px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer {
+        height: 80px;
+        background-color: #292148;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0px  !important;
+    }
+    #noHoraire {display: none;}
+}
