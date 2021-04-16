@@ -1,0 +1,352 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.2s ease-in-out;
+    }
+
+    a:hover {
+        opacity: 0.7;
+    }
+    
+    header {
+        background-color: #5023ff;
+        width: 100%;
+        height: 100px;
+        color: white;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header ul {
+        list-style: none;
+        display: flex;
+        margin-left: 100px;
+        margin-right: 10px;
+        align-items: center;
+    }
+    
+    header ul li {
+        margin: 0 20px;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    #manuhe {
+        font-size: 4.2em;
+        color: rgb(255, 255, 255);
+        font-family: 'Architects Daughter';
+    }
+    
+    #rec {
+        margin-top: -20px;
+        text-align: end;
+    }
+    
+    #logo {
+        width: 60px;
+        margin-left: 30px;
+    }
+    
+    #lamanu manu {
+        font-size: 4em;
+        margin-left: 30%;
+        color: silver;
+        position: relative;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    }
+    
+    #reconnu {
+        font-size: 1em;
+        color: red;
+    }
+    
+    #artisan {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    }
+    
+    #devisgratuit {
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 40px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    }
+    
+    footer {
+        height: 80px;
+        background-color: #292148;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    
+    footer .call img {
+        width: 30px;
+    }
+    
+    footer .call {
+        display: flex;
+        width: 230px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .conteneuraside {
+        background-color: rgb(247, 247, 247);
+        height: auto;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+        border-radius: 5px;
+    }
+    
+    .box img {
+        background-color: rgb(21, 255, 0);
+        width: 15px;
+        margin: 2px;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+    .none {
+        background-color: rgba(0, 128, 0, 0) !important;
+    }
+    
+    .boxstar {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .stargrise {
+        background-color: grey;
+        width: 15px;
+        height: 15px;
+        margin: 2px;
+    }
+    
+    #temoin {
+        margin-top: 10px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .box {
+        width: 100px;
+        height: 100px;
+        margin: 15px 10px;
+        border-radius: 5px;
+        padding: 8px;
+        box-shadow: inset 5px 5px 5px #cccccc,
+            inset -5px -5px 5px #ffffff;
+    }
+    
+    .box p {
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+    .avis {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .presentation {
+        width: 60%;
+        padding: 30px;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        margin: 0 auto;
+        
+    }
+    
+    .conteneur1 {
+        display: flex;
+        margin-left: 20px;
+    }
+    
+    .mainlogo {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        margin: 20px auto;
+        margin-top: 40px;
+    }
+    
+    .sav {
+        width: 550px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+        border-radius: 5px;
+        background-image: url(../images/depannage.jpg);
+        background-size: cover;
+        justify-content: center;
+    }
+
+    
+    .vente {
+        width: 550px;
+        height: 400px;
+        background-image: url(../images/scene-delta-2.jpg);
+        background-size: cover;
+        background-position: center center;
+        margin-left: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    section {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+
+    section a {
+        margin-top: -100px;
+        margin-left: 100px;
+    }
+
+    section h2 {
+        text-shadow: 0 5px 5px black;
+    }
+    
+    .photosoffres {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .sav div:first-of-type {
+        display: flex;
+        color: #5023ff;
+        font-size: 2em;
+    }
+    
+    .sav h2 {
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    
+    .photosoffres img {
+        height: 80px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    #vente1 {
+        color: white;
+        font-size: 1.5em;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .sav p {
+        color: black;
+        font-weight: normal;
+    }
+    
+    .fixed {
+        width: 100px;
+        position: fixed;
+        right: 0;
+        top: 200px;
+    }
+    
+    footer a {
+        font-weight: normal;
+        color: #959ff8;
+    }
+
+
+    @media(min-width: 12px) and (max-width: 425px)
+    {
+        
+        .conteneuraside {
+            background-color: rgb(247, 247, 247);
+            height: auto;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 20px;
+            padding: 5px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+            border-radius: 5px;
+            display: none;
+        }
+        .offres.sav {
+            width: 350px;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+            border-radius: 5px;
+            background-image: url(../images/depannage.jpg);
+           
+            justify-content: center;
+        }
+        .offres.vente {
+            width: 350px;
+            height: 260px;
+            background-image: url(../images/scene-delta-2.jpg);
+            background-size: cover;
+            background-position: center center;
+           
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+            
+            
+            
+            justify-content: center;
+        }
+            
+        .presentation {
+            width: 100% !important;
+            
+            line-height: 1.5rem;
+            font-size: 1.2rem;  
+        }
+        section {
+            display: unset !important;
+        }
+        footer .call {
+            display: flex;
+            width: 230px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        footer {
+            height: 80px;
+            background-color: #292148;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 0px  !important;
+        }
+        #noHoraire {display: none;}
+    } 
