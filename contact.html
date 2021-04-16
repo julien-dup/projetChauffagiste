@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="../formulaireDeContact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+return new bootstrap.Popover(popoverTriggerEl)
+})
+  </script>
+  
+  
+  </head>
+
+
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  
+  <nav class="navbar navbar-expand-sm navbar-dark ">
+    <div class="d-flex flex-row justify-content-start">
+        <a class="" href="../index.html">
+            <img src="images/logo-plombier.png" alt="Logo LaManu Plomberie" width="50" height="auto">LA MANU
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div><!--fin du logo-->
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item "><a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="../PageServices++/index.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="../poeleàbois/index.html">Produit</a></li>
+            <li class="nav-item"><a class="nav-link" href="../formulaire/index.html">Contact</a></li>
+        </ul>
+</nav><!--end of navbar-->
+
+
+
+  <!--d-none d-sm-block -->
+<header>
+  
+  </header>
+ 
+  
+  <main>
+
+      <!--Début de la ligne avec infos 1-->
+      <div class="row  d-flex  align-auto justify-content-center">
+           <!--Début de l'info 1-->
+           <div class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3 text-center">
+            <img src="images/plumber_icon_01.png" class="imag-fluid mt-2 rounded mx-auto d-block" alt="Logo plombier">
+            <p class="fs-4 fw-bolder">TUYAUTERIE</p>
+            <p class="fs-6 text-secondary">Corrosion, fuite d’eau, débouchage ?</p>
+            <p>Les problèmes de joints et de fuite sont très fréquents et difficile à réparer si vous n’êtes pas à l’aise dans le domaine.</P>
+          </div>
+            <!--fin du l'info 1-->
+                 <!--Début de l'info 2-->
+          <div class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3 text-center">
+            <img src="images/plumber_icon_08.png" class="imag-fluid mt-2 rounded mx-auto d-block" alt="Logo plombier">
+            <p class="fs-4 fw-bolder">Toilettes</p>
+            <p class="fs-6 text-secondary">Vos toilettes sont bouchés ?</p>
+            <p>Les problèmes de toilettes bouchés sont récurrents et la cause de nombreuses de nos interventions</p>
+          </div>
+        <!--Début de l'info 2-->
+      </div>
+        <!--fin de la ligne info-->
+
+
+            <!--Début de la ligne avec infos 1-->
+            <div class="row d-flex align-auto justify-content-center">
+              <!--Début de l'info 1-->
+              <div class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3 text-center">
+               <img src="images/plumber_icon_02.png" class="imag-fluid mt-2 rounded mx-auto d-block" alt="Logo plombier">
+               <p class="fs-4 fw-bolder">CHAUFFE-EAU</p>
+               <p class="fs-6 text-secondary">Vos toilettes sont Pas d’eau chaude ?</p>
+               <p>Nous pouvons intervenir sur toutes les marques et types de chaudière ou chauffe-eau.</P>
+              
+              </div>
+               <!--fin du l'info 1-->
+                    <!--Début de l'info 2-->
+             <div class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3 text-center">
+               <img src="images/plumber_icon_09.png" class="imag-fluid mt-2 rounded mx-auto d-block" alt="Logo plombier">
+               <p class="fs-4 fw-bolder">CANALISATION</p>
+               <p class="fs-6 text-secondary">Odeur d’égout, érosion ?</p>
+               <p>Les odeurs d’égouts à votre domicile sont très dérangeantes, nous interviendrons au plus vite afin de cibler et résoudre le problème.</p>
+             </div>
+           <!--Début de l'info 2-->
+         </div>
+           <!--fin de la ligne info-->
+      
+
+
+      <!--DEBUT DU FORMULAIRE DE CONTACT-->
+      <div class="row  d-flex align-auto justify-content-center">
+      <form class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3">
+        <p class="fs-4">Nous contacter</p>
+        
+        <div class="d-flex">
+        <div class="col  mb-3">
+          <label for="exampleInputname" class="form-label">Nom & Prénom</label>
+          <input type="email" class="form-control rounded-3 border border-1 border-secondary" id="exampleInputname" aria-describedby="emailHelp">
+        </div>
+        <div class="col mb-3 ms-3">
+          <label for="exampleInputEmail1" class="form-label">Adresse email</label>
+          <input type="email" class="form-control rounded-3 border border-1 border-secondary" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+      </div>
+       
+       
+       
+        <div class="form-group mb-2">
+          <label for="comment">Votre message :</label>
+          <textarea class="form-control rounded-3 border border-1 border-secondary" rows="5" id="comment"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Envoyer</button>
+      </form>
+
+      <!--Début du LOGO-->
+      <div class="d-none d-sm-block col-md-5 col-lg-4 m-2 border border-1 border-primary rounded-3 text-center">
+        <img src="images/logodetour.png" class="imag-fluid mt-2 rounded mx-auto d-block" alt="Logo plombier">
+        <p class="fs-1 fw-bolder">LA MANU</p>
+        <p>06 98 65 57 23</p>
+      </div>
+        <!--fin du LOGO-->
+    </div>
+    <!--FIN DU FORMULAIRE DE CONTACT-->
+    </main>  
+
+      <!--Début de la ligne avec infos 1-->
+      <div class="row  d-flex align-auto justify-content-center">
+        <!--Début de l'info 1-->
+        <div class="col-md-5 col-lg-4 m-2 p-3 bg-primary border border-1 border-primary rounded-3 text-center">
+          <!--CEST LA TABLE-->
+          <p class="fs-4 fw-bolder text-white">Cher clients</p>
+          <p class="fs-6 text-white">Retrouvez-nous grace aux informations suivantes</P>
+
+          <table class="table table-bordered text-white border-white">
+            <thead>
+              <tr>
+                <th colspan="3">Informations Générales</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Horaires</th>
+                <td>8h00 à 12h30</td>
+                <td>13h00 à 19h00</td>
+              </tr>
+              <tr>
+                <th scope="row">Jours d'ouverture</th>
+                <td colspan="2">Ouvert du mardi au samedi</td>
+              </tr>
+              <tr>
+                <th scope="row">N° de téléphone</th>
+                <td>06.98.65.57.23</td>
+                <td>02.35.12.34.56</td>
+              </tr>
+              <tr>
+                <th scope="row">Adresse</th>
+                <td colspan="2">10 place Léon Meyer</td>
+              </tr>
+              <tr>
+                <th scope="row">Code postal</th>
+                <td colspan="2">76600 le havre</td>
+              </tr>
+            </tbody>
+          </table>
+          <!--CEST LA FIN DE LA TABLE-->
+       </div>
+         <!--fin du l'info 1-->
+              <!--Début de l'info 2-->
+       <div class="col-md-5 col-lg-4 m-2 p-2 border border-1 border-primary rounded-3 text-center">
+         <div class="col map-responsive border-white text-white text-center">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.5631382587485!2d0.11133601496294093!3d49.49275866378498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02f1949becc93%3A0xdf76d5616f1c835!2s10%20Place%20L%C3%A9on%20Meyer%2C%2076600%20Le%20Havre!5e0!3m2!1sfr!2sfr!4v1618395890101!5m2!1sfr!2sfr" width="100%" height=380>
+          </iframe>
+        </div>
+        </div>
+     <!--Début de l'info 2-->
+   </div>
+     <!--fin de la ligne info-->
+
+
+
+            <!--Début de la ligne avec infos 1-->
+            <div class="row d-flex align-auto justify-content-center">
+                                <!--Début de l'info 2-->
+                                <div class="col-md-5 col-lg-4 m-2  rounded-3 text-center">
+                                  <img src="images/ray_max_visuel_ambiance.png" width="100%" class="img-fluid m-2 rounded mx-auto d-block" alt="Logo plombier">
+                                </div>
+                       <!--Début de l'info 2-->
+              
+              
+              
+              <!--Début de l'info 1-->
+              <div class="col-md-5 col-lg-4 m-2 p-3 border border-1 border-primary rounded-3 text-center">
+               <p class="fs-5 fw-bolder">Poêle à bois 21 KW BELLEZA RAY MAX</p>
+               <p class="fs-5">Prix : 399,98 €</p>
+               <p class="fs-6 text-secondary">Vos toilettes sont Pas d’eau chaude ?</p>
+               <ul class="list-group">
+                <li class="list-group-item">APoêle à bois BELLEZA Ray Max</li>
+                <li class="list-group-item">Puissance : 21 KW</li>
+                <li class="list-group-item">Rendement : 76.87%</li>
+                <li class="list-group-item">Double Combustion</li>
+                <li class="list-group-item">Longueur des bûches : 50 cm</li>
+                <li class="list-group-item">Grand Foyer</li>
+                <li class="list-group-item">Structure en acier</li>
+                <li class="list-group-item">Eco Design 2022</li>
+                <li class="list-group-item">Fabrication CE</li>
+                <li class="list-group-item">Norme EN 13240</li>
+              </ul>
+              </div>
+               <!--fin du l'info 1-->
+  
+         </div>
+           <!--fin de la ligne info-->
+
+           <footer>
+            <div class="copyright" style="width: 80%;">Copyright © 2021 <a href="./pageAdmin/index.html">LaManu</a>, Tous droits reservés.</div>
+            <div class="call">
+                <img src="./images/phone-white-icon-23.jpg" alt="">
+                <div id="noHoraire">24/7</div>
+                <div>06 98 65 57 23</div>
+                
+            </div>
+        </footer><!--fin du footer-->  
+
+
+
+
+
+
+
+ <!--CA CEST LE BODY-->      
+    </div>
+<!--CA CEST LE BODY-->
+
+
+
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+      </script>
+
+</body>
+</html>
