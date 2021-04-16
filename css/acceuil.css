@@ -21,7 +21,6 @@
     header {
         background-color: #5023ff;
         width: 100%;
-        height: 100px;
         color: white;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
         display: flex;
@@ -44,7 +43,41 @@
     a {
         color: white;
     }
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+       }
     
+    nav {
+        width: 100%;
+        background-color: #6650FF !important;
+        display: flex; 
+        align-items: center;
+        padding: 0 30px;
+    }
+    
+    nav a {
+        display: flex;
+        align-items: center;
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    nav a img { 
+        margin-right: 20px; 
+     }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: 80px;
+    }
+    
+    nav ul li {
+        margin: 0 20px;
+    } 
+
     #manuhe {
         font-size: 4.2em;
         color: rgb(255, 255, 255);
@@ -306,14 +339,14 @@
             justify-self: center;
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
             border-radius: 5px;
-            background-image: url(../images/depannage.jpg);
+            background-image: url("../images/depannage.jpg");
            
             justify-content: center;
         }
         .offres.vente {
             width: 350px;
             height: 260px;
-            background-image: url(../images/scene-delta-2.jpg);
+            background-image: url("../images/scene-delta-2.jpg");
             background-size: cover;
             background-position: center center;
            
